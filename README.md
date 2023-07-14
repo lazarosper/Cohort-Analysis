@@ -14,4 +14,6 @@ The dataset is about an E-commerce shop from England, containing half a million 
 ## Data Cleaning
 Starting with our dataset it seems that there are 135.080 rows where the customerid column in empty,as to conduct a cohort analysis we need to have the customerid
 we choose to remove this columns,decreasing our dataset from  541.909 rows to  406,829
+
+
  ![missing](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/7eaa402b-6d83-4549-861b-5b262452ea84)
