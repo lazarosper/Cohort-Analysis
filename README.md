@@ -18,4 +18,4 @@ we choose to remove this columns,decreasing our dataset from  541.909 rows to  4
 
 
 
- ![missing](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/7eaa402b-6d83-4549-861b-5b262452ea84)
+![missing](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/421ed29e-9b42-4457-a377-6e4f6d61e9e9)
