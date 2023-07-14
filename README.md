@@ -13,8 +13,7 @@ The dataset is about an E-commerce shop from England, containing half a million 
 
 
 ## Data Cleaning
-Starting with our dataset it seems that there are 135,080 rows where the customerid column in empty,as to conduct a cohort analysis we need to have the customerid
-we choose to remove this rows,decreasing our dataset from  541,909 rows to  406,829
+After examining our dataset, it appears that there are 135,080 rows with an empty customerid column. In order to conduct a cohort analysis, it is necessary to have the "customerid" information. Therefore, we have decided to remove these rows, resulting in a decrease in our dataset size from 541,909 rows to 406,829 rows.
 
 
 
@@ -22,11 +21,10 @@ we choose to remove this rows,decreasing our dataset from  541,909 rows to  406,
 
 
 
-Afterward i create a CTE  and continue exploring our dataset,we found that  the quantity columns include negative values this may be because the items were damaged or returned 
-
+After creating a Common Table Expression (CTE) and continuing to explore our dataset, we have discovered that the quantity column contains negative values. This occurrence may be attributed to damaged or returned items.
 
 
 ![negative](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/248eded1-0a5c-493e-8783-a6a2195a5453)
 
 
-Nevertheless we excludes this values, finally we create a new table called cleaned_table that has 399,994 rows and we are ready to begin our Analysis
+After removing these values, we ultimately create a new table called cleaned_table, which contains 399,994 rows. Now we're ready to start our analysis
