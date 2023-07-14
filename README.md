@@ -5,4 +5,4 @@ This project involves conducting a Cohort Analysis using a real world dataset. T
 
 ## Dataset 
 The dataset is about an E-commerce shop from England, containing half a million transactions that occurred between 2010 and 2011.
-![Dataset Preview]([C:\Users\30697\Pictures\right.png](https://drive.google.com/file/d/1JwGKx6VJ0lqQEIHj5GtYoqatFB5iu-Pf/view?usp=drive_link)https://drive.google.com/file/d/1JwGKx6VJ0lqQEIHj5GtYoqatFB5iu-Pf/view?usp=drive_link)
+![right](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/50fea3d9-bc23-4d23-9467-eb2f70ee20f3)
