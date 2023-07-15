@@ -50,3 +50,13 @@ Here, we group the data by 'first_purchase' and 'indexx', counting the unique cu
 Finally, we calculate the retention rate for each group by utilizing the 'first_value' window function to identify the initial cohort size. We then divide the count of each cohort by this initial cohort size to determine the retention rate.
 ![stage3](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/82ec8ffc-b600-465e-b4c1-0c170ef015ad)
 
+
+### Bonus Stage!
+Previously we used the count of the uniques customerid to make our cohorts and measure the retention rate,but what if we wished to use a different measure? It is definitely possible. Here, I will utilize revenue as the metric to evaluate the retention of each group. The overall process remains quite similar but with  some minor differences
+
+1)We need to calculate the revenue column by multiplying the quantity and unit price columns to determine the total revenue
+2)Instead of using the 'count' function, we will switch to the 'sum' function.
+
+![bonusstage](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/73ce073f-eda2-4e0f-859e-63769134d4ef)
+
+
