@@ -32,11 +32,18 @@ After removing these values, we ultimately create a new table called cleaned_tab
 ## Conducting cohort analysis
 
 ### First stage
-First, we identify the initial purchase month for each customer by finding the minimum invoice date. Then, we calculate the duration in months since that month for each record in our dataset.
+
+
+First, we identify the initial purchase month for each customer by finding the minimum invoice date, which we then name it as 'first_purchase'. Subsequently, we calculate the number of months that have passed since the customer's first purchase and name it as 'indexx' column. We store the results of this query in a Common Table Expression (CTE) as we will utilize them in subsequent stages.
+
+
+
 ![ke](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/45ebe194-962f-47f6-b3c1-58a941bf31c2)
 
 
+### second stage
+Here, we group the data by 'first_purchase' and 'indexx', counting the unique customer IDs within each group.
 
-
+![stage2](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/6907b133-b4a0-4356-8c30-e762987003e5)
 
 
