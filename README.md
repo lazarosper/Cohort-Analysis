@@ -52,7 +52,7 @@ Finally, we calculate the retention rate for each group by utilizing the 'first_
 
 
 ### Bonus Stage!
-Previously we used the count of the uniques customerid to make our cohorts and measure the retention rate,but what if we wished to use a different measure? It is definitely possible. Here, I will utilize revenue as the metric to evaluate the retention of each group. The overall process remains quite similar but with  some minor differences
+Previously we used the count of the unique customerids to make our cohorts and measure the retention rate,but what if we wished to use a different measure? It is definitely possible. Here, I will utilize revenue as the metric to evaluate the retention of each group. The overall process remains quite similar but with  some minor differences
 
 1)We need to calculate the revenue column by multiplying the quantity and unit price columns to determine the total revenue
 
@@ -61,4 +61,6 @@ Previously we used the count of the uniques customerid to make our cohorts and m
 
 ![bonusstage](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/73ce073f-eda2-4e0f-859e-63769134d4ef)
 
+
+## Visualzation
 
