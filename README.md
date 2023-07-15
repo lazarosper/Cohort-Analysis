@@ -66,6 +66,7 @@ Previously we used the count of the unique customerids to make our cohorts and m
 ## Visualzation
 I am using  powerBI to visualize the finding,i made 2 views in the database for the results of cohort analysis for each metric(count of customers , sum of revenue)  and i  put them in PowerBI
 
+![cohort](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/7313af48-fa36-4fc6-8648-46dedb978e17)
 
 
 
