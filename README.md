@@ -1,5 +1,6 @@
-# Cohort-Analysis
+# INTRODUCTION
 This project involves conducting a Cohort Analysis using a real world dataset. The aim is to measure the retention rate of the created groups.
+the tools iam  using are: SQL(T-SQl),Power query and PowerBI 
 ## What is  Cohort Analysis
  Cohort analysis is a type of behavioral analytics in which you take a group of users, and analyze their usage patterns based on their shared traits to better track and understand their actions. A cohort is simply a group of people with shared characteristics.
 
@@ -63,4 +64,8 @@ Previously we used the count of the unique customerids to make our cohorts and m
 
 
 ## Visualzation
+I am using  powerBI to visualize the finding,i made 2 views in the database for the results of cohort analysis for each metric(count of customers , sum of revenue)  and i  put them in PowerBI
+
+
+
 
