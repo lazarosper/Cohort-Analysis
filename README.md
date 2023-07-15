@@ -64,9 +64,13 @@ Previously we used the count of the unique customerids to make our cohorts and m
 
 
 ## Visualzation
-I am using  powerBI to visualize the finding,i made 2 views in the database for the results of cohort analysis for each metric(count of customers , sum of revenue)  and i  put them in PowerBI
+I am using  powerBI to visualize the finding,i created two views in the database to present the results of cohort analysis for each metric: one for the count of customers and the other for the sum of revenue.I then integrated these views into PowerBI to generate the visual representations of the data. 
 
 ![cohort](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/7313af48-fa36-4fc6-8648-46dedb978e17)
 
 
+The Y-axis represents the months in which the customers were acquired.
 
+The X-axis represents the number of months after their first purchase.
+
+Every square on the chart indicates the percentage of customers who returned in a particular month.
