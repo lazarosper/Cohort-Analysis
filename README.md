@@ -28,3 +28,15 @@ After creating a Common Table Expression (CTE) and continuing to explore our dat
 
 
 After removing these values, we ultimately create a new table called cleaned_table, which contains 399,994 rows. Now we're ready to start our analysis
+
+## Conducting cohort analysis
+
+### First stage
+First, we identify the initial purchase month for each customer by finding the minimum invoice date. Then, we calculate the duration in months since that month for each record in our dataset.
+![ke](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/45ebe194-962f-47f6-b3c1-58a941bf31c2)
+
+
+
+
+
+
