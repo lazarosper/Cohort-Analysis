@@ -41,9 +41,12 @@ First, we identify the initial purchase month for each customer by finding the m
 ![ke](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/45ebe194-962f-47f6-b3c1-58a941bf31c2)
 
 
-### second stage
+### Second stage
 Here, we group the data by 'first_purchase' and 'indexx', counting the unique customer IDs within each group.
 
 ![stage2](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/6907b133-b4a0-4356-8c30-e762987003e5)
 
+### Third stage
+Finally, we calculate the retention rate for each group by utilizing the 'first_value' window function to identify the initial cohort size. We then divide the count of each cohort by this initial cohort size to determine the retention rate.
+![stage3](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/82ec8ffc-b600-465e-b4c1-0c170ef015ad)
 
