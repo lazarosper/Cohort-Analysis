@@ -55,7 +55,6 @@ Finally, we calculate the retention rate for each group by utilizing the 'first_
 Previously we used the count of the uniques customerid to make our cohorts and measure the retention rate,but what if we wished to use a different measure? It is definitely possible. Here, I will utilize revenue as the metric to evaluate the retention of each group. The overall process remains quite similar but with  some minor differences
 
 1)We need to calculate the revenue column by multiplying the quantity and unit price columns to determine the total revenue
-
 2)Instead of using the 'count' function, we will switch to the 'sum' function.
 
 
