@@ -76,13 +76,14 @@ The X-axis represents the number of months after their first purchase.
 Every square on the chart indicates the percentage of customers who returned in a particular month.
 
 
-As we know PowerBI dashboards are interactive,if we would like we could the chart of a specific group,like the group of march at year 2011,as 
+As we know PowerBI dashboards are interactive, enabling us to selectively view the chart for a particular group, such as the March 2011 cohort, as illustrated below.
+![cohortmarch](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/6af93f3f-4cc1-4ad0-a462-d40f50f1968e)
 
+We can examine how that group performed based on both of our metrics during that timeframe.
 
 ## Conclusion
 
 
 As we would expect,the retention rate for each group naturally decreases over time. However, what's intriguing is the observed increase in the retention rate during the last months of the year, particularly in November. This suggests that some customers from that group, who had previously stopped making purchases, have chosen to return. One possible explanation for this phenomenon could be the surge in demand during the holiday season, which includes events like Black Friday and Cyber Monday. As an E-shop these holiday promotions likely attract customers back to the store, leading to the observed rise in retention during this period.
 
-Cohort analysis enables businesses to uncover customer behavior patterns that may not be obvious at first glance.Its a powerfull tool that can help many business
-These insights help optimize marketing strategies, improve customer experiences and ultimately driving business success.
+Overall Cohort analysis enables businesses to uncover customer behavior patterns that may not be obvious at first glance.Its a powerfull tool that can help many business.These insights help optimize marketing strategies, improve customer experiences and ultimately driving business success.
