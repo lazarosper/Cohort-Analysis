@@ -64,7 +64,7 @@ Previously we used the count of the unique customerids to make our cohorts and m
 
 
 ## Visualzation
-I am using  powerBI to visualize the finding,i created two views in the database to present the results of cohort analysis for each metric: one for the count of customers and the other for the sum of revenue.I then integrated these views into PowerBI to generate the visual representations of the data. 
+I am using  powerBI to visualize the finding,i created two views in the database to present the results of cohort analysis for each metric: one for the count of customers and the other for the sum of revenue.I then integrated these views into PowerBI to visualize them. 
 
 ![cohort](https://github.com/lazarosper/Cohort-Analysis/assets/119593480/7313af48-fa36-4fc6-8648-46dedb978e17)
 
@@ -74,3 +74,15 @@ The Y-axis represents the months in which the customers were acquired.
 The X-axis represents the number of months after their first purchase.
 
 Every square on the chart indicates the percentage of customers who returned in a particular month.
+
+
+As we know PowerBI dashboards are interactive,if we would like we could the chart of a specific group,like the group of march at year 2011,as 
+
+
+## Conclusion
+
+
+As we would expect,the retention rate for each group naturally decreases over time. However, what's intriguing is the observed increase in the retention rate during the last months of the year, particularly in November. This suggests that some customers from that group, who had previously stopped making purchases, have chosen to return. One possible explanation for this phenomenon could be the surge in demand during the holiday season, which includes events like Black Friday and Cyber Monday. As an E-shop these holiday promotions likely attract customers back to the store, leading to the observed rise in retention during this period.
+
+Cohort analysis enables businesses to uncover customer behavior patterns that may not be obvious at first glance.Its a powerfull tool that can help many business
+These insights help optimize marketing strategies, improve customer experiences and ultimately driving business success.
