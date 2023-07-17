@@ -87,3 +87,13 @@ We can examine how that group performed based on both of our metrics during that
 As we would expect,the retention rate for each group naturally decreases over time. However, what's intriguing is the observed increase in the retention rate during the last months of the year, particularly in November. This suggests that some customers from that group, who had previously stopped making purchases, have chosen to return. One possible explanation for this phenomenon could be the surge in demand during the holiday season, which includes events like Black Friday and Cyber Monday. As an E-shop these holiday promotions likely attract customers back to the store, leading to the observed rise in retention during this period.
 
 Overall Cohort analysis enables businesses to uncover customer behavior patterns that may not be obvious at first glance.Its a powerfull tool that can help many business.These insights help optimize marketing strategies, improve customer experiences and ultimately driving business success.
+
+
+'''
+d as(
+select first_purchase,indexx,cast(sum( Revenue) as int) as cohort
+from c
+group by first_purchase,indexx
+)
+
+'''
