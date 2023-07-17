@@ -89,11 +89,4 @@ As we would expect,the retention rate for each group naturally decreases over ti
 Overall Cohort analysis enables businesses to uncover customer behavior patterns that may not be obvious at first glance.Its a powerfull tool that can help many business.These insights help optimize marketing strategies, improve customer experiences and ultimately driving business success.
 
 
-'''
-d as(
-select first_purchase,indexx,cast(sum( Revenue) as int) as cohort
-from c
-group by first_purchase,indexx
-)
 
-'''
